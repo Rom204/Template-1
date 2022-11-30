@@ -6,6 +6,7 @@ class Config {
     public mySQLhost = "localhost";
     public mySQLUser = "root";
     public mySQLPassword = "12345678";
+    // schema name   vvvvvvvvvvvv
     public mySQLdb = "something";
     //another database
 }

@@ -13,7 +13,7 @@ function Login(): JSX.Element {
         defaultValues : 
         {
             firstName : "",
-            // lastName : "",
+            id : 0
         }
     });
     
@@ -34,8 +34,8 @@ function Login(): JSX.Element {
             <input {...register("firstName", { required: "required"})} placeholder={"First Name"} />
             <p>{ errors.firstName?.message}</p>
 
-            {/* <input {...register("lastName", { required: "required"})} placeholder={"lastName"} />
-            <p>{ errors.lastName?.message}</p> */}
+            <input {...register("id", { required: "required"})} placeholder={"id"} />
+            <p>{ errors.id?.message}</p>
 
             <input type="submit" />
             

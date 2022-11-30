@@ -1,9 +1,22 @@
 // URL'S definitions.
 class Urls {
-    public static getSomethingURL = "/something";
-    public static sendSomethingURL = "/send/something";
-    public static deleteSomethingURL = "/delete/something/:id";
-    public static updateSomethingURL = "/update/something";
+    public static getAllSomethingURL = "/all";
+    public static getSingleSomethingURL = "/:id";
+    public static addSomethingURL = "/add";
+    public static deleteSomethingURL = "/:id";
+    public static updateSomethingURL = "/add";
 }
 
-export default Urls;
+class Urls1 {
+    " some urls "
+}
+
+class Urls2 {
+    " some urls "
+}
+
+export {
+    Urls,
+    Urls1,
+    Urls2,
+} ;
